@@ -1,0 +1,304 @@
+/* CSS Document */
+html, body, div, p, li, ul, ol, form, fieldset, h1, h2, h3, h4, h5, h6   { margin: 0; padding: 0; list-style: none; }   
+
+body {font-family: Tahoma,Verdana,Arial,Geneva,Helvetica,sans-serif;
+       background-color: #e6e6e6; 
+       font-size: 14px;
+       line-height: 140%;}
+
+#page {margin: 0 auto; width: 950px;}
+
+#header {margin-top: 20px;} 
+
+img.logo {
+  position: absolute; left: 122px; top: 43px;
+  display: none;
+}
+
+
+.menu 		{_display:inline-block;}
+.menu ul	{list-style:none;}
+.menu li ul	{list-style:none;position:absolute;z-index:10;display:none;}
+.menu a		{display:block;text-decoration:none;}
+.menu div a	{width:100%;display:block;text-align:center;}
+.menu li li a	{width:12.5em;font-size:90%;}
+.menu li	{width:8em;float:left;}
+.menu li li	{width:auto;float:none;}
+.menu li:hover ul {display:block;}
+.menu br 	{clear:left;}
+
+.menu  {
+  margin-top: 5px;
+	padding:3px 0 0 0;
+	background:#bfffbf none repeat 0 0;
+	border-width:2px;
+	border-style:solid;
+	border-color:#cac6af;
+	font-family: Tahoma,Verdana,Arial,Geneva,Helvetica,sans-serif;
+}
+.menu ul {
+	margin:0;
+	padding:2px 0 0 3px;
+	
+}
+.menu li ul {
+	margin:0;
+	padding:2px 4px 2px 2px;
+	background:#eeede0 none repeat 0 0;
+	border-width:1px;
+	border-style:solid;
+	border-color:#cac6af;
+}
+.menu li {
+	margin:0 0 3px 3px;
+	
+}
+.menu li div {
+}
+.menu li li {
+	margin:1px;
+}
+.menu div a {
+	padding:1px 0 0 0;
+	color:#555;
+	border-width:1px;
+	border-style:solid;
+	border-color:#fff #d8d2bd #d8d2bd #fff;
+}
+.menu div a:hover {
+	color:#000;
+	background:#e3dec5 none repeat 0 0;
+	border-color:#8d887a;
+}
+.menu li:hover div a {
+	background:#b4e2b4 none repeat 0 0;
+	border-width:1px;
+	border-style:solid;
+	border-color:#8d887a;
+}
+.menu li li a {
+	padding:4px 2px 4px 15px;
+	color:#666;
+
+	border-width:1px;
+	border-style:solid;
+	border-color:#eeede0;
+}
+.menu li li a:hover{
+	padding:4px 2px 4px 25px;
+	color:#000;
+	
+	border-color:#8d887a;
+}
+
+ 
+  
+#content span {
+  color:black; 
+  font-size:large;
+  }
+
+
+#footer {clear:both; background-color: green; height: 30px; margin-top: 5px; margin-bottom: 20px; text-align:center; padding-top:5px;color:white;}
+
+
+p {
+  margin:0.5em 0;
+}
+#main {
+  background-color:  #999999;
+  border-width:2px;
+	border-style:solid;
+	border-color:#cac6af;
+  margin-top: 5px;
+  }
+#mainIn {
+  width: 100%;
+  }
+#content {
+  width: 70%;
+  float: left;
+  background-color: #E0E0E0;
+  min-height: 735px;
+  
+	border-right: 2px solid #cac6af;
+  }
+#contentIn {
+  margin: 1.5em;
+}
+
+#contentIn p{
+  margin-left: 1.8em;
+}
+
+#contentIn li{
+  margin-left: 3em;
+  list-style-image: url("img/sipka.png"); 
+  line-height: 150%;
+}
+
+#contentIn h3{
+  line-height: 180%;
+}
+
+#right_menu {
+  width: 29%;
+  float: right;
+  color: black;
+ 
+  
+ 
+}
+#right_menuIn1, #right_menuIn2, #right_menuIn3 {
+  margin: 0.5em;
+  margin-top: 10px;
+  
+}
+
+#right_menuIn1 p, #right_menuIn2 p, #right_menuIn3 p{
+  background-color: white;
+  padding: 10px;
+  text-align: right;
+  font: 90%;
+  line-height: 150%;
+  border-width:2px;
+	border-style:solid;
+	border-color:#cac6af;
+  
+}
+
+
+#right_menuIn1 h3, #right_menuIn2 h3, #right_menuIn3 h3 {
+  padding: 15px 10px 10px 15px;
+  
+  background-image: url("img/back01.png") ;
+  background-repeat: no-repeat;
+  margin-bottom: -8px;
+}
+
+#right_menuIn3 img {
+  margin-bottom: 15px;
+}
+#ad a:link, #ad a:visited    {text-decoration: none; color: #000055;} 
+#ad {
+  margin-top: 5px;
+  border-width:2px;
+	border-style:solid;
+	border-color:#cac6af;
+	background-color: #abcdff; 
+	font-size: 41px;
+	font-weight: bold;
+	line-height: 90%;
+	font-family: "Arial";    	
+  }
+  
+#ad2 a:link, #ad2 a:visited    {text-decoration: none; color: white;}  
+  
+#ad2 {   
+  padding-top:4px;
+  color: yellow;  
+  font-family: "Arial";  
+  }       
+  
+#ad2In1 { 
+  border-width:2px;
+	border-style:solid;
+	border-color:#cac6af;
+	background-color: #000055;
+	color: white; 	
+  font-size: 30px;
+	font-weight: bold;
+  width:47%; 
+  float:left;
+  padding-left: 25px;
+  line-height: 70%;
+}
+
+#ad2In2 { 
+  border-width:2px;
+	border-style:solid;
+	border-color:#cac6af;
+	background-color: #1b711b;
+	background-image: url(img/sadroPozadi.jpg);
+	color: white; 	
+  font-size: 36px;
+	font-weight: bold;
+	padding-left: 23px;
+	padding-top: 11px;
+	min-height: 65px;
+	margin-left:480px;
+}
+  	
+p.deska {
+   font-size: 18px;
+   float:right;
+   padding-right: 20px;
+   margin-top: -5px;
+   
+   	font-weight: bold;
+}
+
+img.klima {
+  float:right;
+  margin-right: 25px;
+  margin-top: 3px;
+  }
+  
+img.klima2 {
+  float:left;
+  margin: 15px 32px 10px 10px;
+}  
+
+
+.cleaner {
+  clear: both;
+  height: 0;
+  content: ' ';
+  overflow: hidden;
+}
+.cleaner hr {
+  display: none;
+}
+
+.facebookPlugin {
+    border:none !important;
+    overflow:hidden;
+    width:218px;
+    height:250px;
+    padding: 10px 10px 0px 10px;
+    
+}
+
+
+#gif {
+  margin: 30px;
+  margin-left: 55px;
+}
+
+#lightbox{	position: absolute;	left: 0; width: 100%; z-index: 100; text-align: center; line-height: 0;}
+#lightbox img{ width: auto; height: auto;}
+#lightbox a img{ border: none; }
+
+#outerImageContainer{ position: relative; background-color: #fff; width: 250px; height: 250px; margin: 0 auto; }
+#imageContainer{ padding: 10px; }
+
+#loading{ position: absolute; top: 40%; left: 0%; height: 25%; width: 100%; text-align: center; line-height: 0; }
+#hoverNav{ position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10; }
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#prevLink, #nextLink{ width: 49%; height: 100%; background-image: url(data:image/gif;base64,AAAA); /* Trick IE into showing hover */ display: block; }
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#prevLink:hover, #prevLink:visited:hover { background: url(../images/prevlabel.gif) left 15% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(../images/nextlabel.gif) right 15% no-repeat; }
+
+#imageDataContainer{ font: 10px Verdana, Helvetica, sans-serif; background-color: #fff; margin: 0 auto; line-height: 1.4em; overflow: auto; width: 100%	; }
+
+#imageData{	padding:0 10px; color: #666; }
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }	
+#imageData #caption{ font-weight: bold;	}
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}			
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em; outline: none;}	 	
+
+#overlay{ position: absolute; top: 0; left: 0; z-index: 90; width: 100%; height: 500px; background-color: #000; }
